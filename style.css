@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1600px;
+    height: 100vh;
+    overflow: hidden;
+    cursor: none;
+    background-color: #222;
+}
+
+.box {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    background-color: rgba(0, 0, 0, 0.300);
+}
