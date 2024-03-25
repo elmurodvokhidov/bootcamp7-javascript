@@ -1,0 +1,1 @@
+# lesson2 - parseInt, typeof, integer
