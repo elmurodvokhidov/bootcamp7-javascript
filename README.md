@@ -1,0 +1,1 @@
+# lesson1 - Javascript kirish, ma'lumot turlari
