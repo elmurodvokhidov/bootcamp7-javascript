@@ -1,0 +1,23 @@
+/* .hello {
+    color: red;
+    padding: 10px 20px;
+    border: 1px solid blue;
+} */
+
+.error {
+    width: 300px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.395);
+    border: 1px solid red;
+}
+
+.success {
+    width: 300px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.395);
+    border: 1px solid green;
+}
