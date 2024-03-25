@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: #222;
+}
+
+.status {
+    margin: 50px 0 0;
+    font-size: 40px;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    filter: drop-shadow(0 0 10px red) drop-shadow(0 0 15px red);
+}
+
+#turn {
+    font-size: 50px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* background-color: blueviolet; */
+}
+
+li {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border: 1px solid red;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px red) drop-shadow(0 0 15px red);
+}
+
+li:nth-child(1),
+li:nth-child(2),
+li:nth-child(3) {
+    border-top: none;
+}
+
+li:nth-child(3),
+li:nth-child(6),
+li:nth-child(9) {
+    border-right: none;
+}
+
+li:nth-child(7),
+li:nth-child(8),
+li:nth-child(9) {
+    border-bottom: none;
+}
+
+li:nth-child(1),
+li:nth-child(4),
+li:nth-child(7) {
+    border-left: none;
+}
+
+.warning {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.warning h1 {
+    font-size: 45px;
+    filter: drop-shadow(0 0 10px red) drop-shadow(0 0 15px red);
+}
+
+.warning i {
+    font-size: 100px;
+    filter: drop-shadow(0 0 10px red) drop-shadow(0 0 15px red);
+}
+
+#refreshBtn {
+    border: 1px solid red;
+    padding: 5px 15px;
+    font-size: 22px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: bisque;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.colorA {
+    width: fit-content;
+    position: absolute;
+    top: 36%;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    z-index: 10;
+}
+
+.colorA button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: blue;
+}
+
+.colorA button:nth-child(2) {
+    background-color: #0f0;
+}
+
+.colorA button:nth-child(3) {
+    background-color: blueviolet;
+}
