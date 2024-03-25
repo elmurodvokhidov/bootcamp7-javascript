@@ -1,0 +1,1 @@
+# lesson8 - function, function expression, arrow function, array and some array methods
