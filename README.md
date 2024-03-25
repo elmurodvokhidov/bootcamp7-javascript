@@ -1,0 +1,1 @@
+# lesson6 - for loop
