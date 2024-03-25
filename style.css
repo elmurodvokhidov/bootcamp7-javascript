@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1600px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 50px 100px;
+    background-color: azure;
+}
+
+.handle_modal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent {
+    display: flex;
+    gap: 20px;
+}
+
+.parent input {
+    width: 100px;
+}
+
+.parent .inputGroup:nth-child(2) input {
+    width: 200px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+label {
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 6px 12px;
+    border-radius: 12px;
+    border: none;
+    outline-color: green;
+}
+
+.fa-right-from-bracket {
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+    position: absolute;
+    top: 15%;
+    right: 25%;
+}
+
+tbody figure {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+tbody figure img {
+    width: 100%;
+    height: 100%;
+    scale: 2;
+    object-fit: cover;
+}
+
+table td, table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#editBtn {
+    margin: 0 10px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">№</th>
+                    <th scope="col">Rasm</th>
+                    <th scope="col">Ism</th>
+                    <th scope="col">Familya</th>
+                    <th scope="col">Yosh</th>
+                    <th scope="col">Telefon</th>
+                    <th scope="col">Guruh</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">1</td>
+                    <td><figure><img src="https://img.freepik.com/premium-vector/account-icon-user-icon-vector-graphics_292645-552.jpg" alt="user profile"></figure></td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>20</td>
+                    <td>+330040804</td>
+                    <td>G21</td>
+                    <td>
+                        <button id="editBtn" class="btn btn-success"><i class="fa-solid fa-user-pen"></i></button>
+                        <button id="deleteBtn" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button id="newAdd" class="btn btn-secondary fs-5">Yangi ma'lumot qo'shish</button>
+
+        <!-- Modal oyna -->
+        <div class="handle_modal bg-dark">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <form>
+                <div class="inputGroup">
+                    <label for="fName">Ism</label>
+                    <input type="text" name="fName" id="fName">
+                </div>
+
+                <div class="inputGroup">
+                    <label for="lName">Familya</label>
+                    <input type="text" name="lName" id="lName">
+                </div>
+
+                <div class="parent">
+                    <div class="inputGroup">
+                        <label for="age">Yosh</label>
+                        <input type="number" name="age" id="age">
+                    </div>
+
+                    <div class="inputGroup">
+                        <label for="pNumber">Telefon</label>
+                        <input type="number" name="pNumber" id="pNumber">
+                    </div>
+
+                    <div class="inputGroup">
+                        <label for="gNumber">Guruh</label>
+                        <input type="number" name="gNumber" id="gNumber">
+                    </div>
+                </div>
+                <button id="addBtn" type="button" class="btn btn-success mt-5 fs-5">Qo'shish</button>
+                <button style="margin-left: 15px;" type="button" class="btn btn-danger mt-5 fs-5">Tozalash</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
