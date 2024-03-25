@@ -1,0 +1,1 @@
+# lesson11 - object, function, bind, call, apply methods and prototype
